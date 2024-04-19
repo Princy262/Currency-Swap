@@ -1,0 +1,161 @@
+
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 100vh;
+    
+    font-size: 1.5rem;
+    overflow: hidden;
+}
+
+.background{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    min-height: 100vh;
+
+    background: url("../background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    filter: blur(4px);
+
+}
+
+h1{
+    font-style: italic;
+    color:crimson;
+    text-shadow: 2px 3px 3px rgb(87, 86, 86);
+    font-weight:bolder;
+    font-size: 3.25rem;
+}
+
+.convertor{
+   
+
+    text-align: center;
+    padding: 2rem;
+
+    background: linear-gradient( to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.2), rgb(255,255,255,0.1));
+    backdrop-filter: blur(8px);
+
+    border-left: 3px solid rgba(255, 255, 255, 0.18);
+    border-top: 3px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 8px  5px 0px rgba(0, 0, 0, 0.29);
+    border-radius: 10%;
+
+}
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:large;
+    font-weight: bold;
+
+    color:rgb(40, 10, 10);
+}
+
+.currency{
+    margin: 2rem 0 1rem 0;
+
+    text-align: left;
+}
+
+input{
+    width:90%;
+    justify-content: center;
+
+    border:none;
+    outline:none;
+
+    border-radius: 0.7rem;
+    border: 1px solid rgba(222, 184, 135, 0.6);
+    
+    height: 2.5rem; 
+    padding-left: 0.62rem;
+
+    background-color: rgba(222, 184, 135, 0.4);
+    font-size: 1.5rem;
+    color:rgb(67, 15, 15);
+    
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.dropdown{
+    display: flex;
+    justify-content: space-around;
+
+    padding: 2rem;
+}
+
+i{
+    
+    margin: 3rem 1rem 0rem 1rem;
+}
+
+
+#msg{
+    text-align: left;
+    color: #6a040f;
+    font-size: 1.3rem;
+    
+    display:none;
+
+}
+
+button{
+    background-color:rgb(235, 76, 76);
+    color: azure;
+
+    width: 39%;
+    height: 12%;
+
+    border-radius: 1rem;
+    border:0.3px solid rgba(0, 0, 0, 0.39) ;
+    box-shadow: 1px 0px 0.4px 1.2px rgba(41, 41, 41, 0.208);
+
+    margin-top: 2rem;
+    padding: 0.2rem;
+
+    font-size: 1.04rem;
+}
+
+@media (max-width: 400px){
+
+    h1{
+        font-size: 1.5rem;
+    }
+
+    .convertor{
+        width: 75vw;
+        height: 95vh;
+    }
+    
+}
+
+
+@media (max-width: 600px){
+
+    h1{
+        font-size: 2.5rem;
+    }
+
+    .convertor{
+        width: 80vw;
+        height: 70vh;
+    }
+    
+}

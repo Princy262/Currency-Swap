@@ -42,7 +42,10 @@ The website is live at [Currency Swap](https://princy262.github.io/Currency-Swap
 
 ## API
 
-This project uses the [ExchangeRate-API](https://www.exchangerate-api.com/) to fetch real-time exchange rates.
+This project uses the following APIs:
+- [ExchangeRate-API](https://www.exchangerate-api.com/) to fetch real-time exchange rates.
+- [FlagsAPI](https://flagsapi.com) to display flags of each country.
+
 
 ## Contributing
 

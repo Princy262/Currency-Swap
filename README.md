@@ -11,7 +11,7 @@ Currency Swap is a web application that allows users to convert currency values 
 - [Usage](#usage)
 - [API](#api)
 - [Contributing](#contributing)
-- [License](#license)
+
 
 ## Features
 
@@ -47,6 +47,6 @@ This project uses the following APIs:
 - [FlagsAPI](https://flagsapi.com) to display flags of each country.
 
 
-## Contributing
+## Contributions
 
 Contributions are welcome! Please fork the repository and submit a pull request for any improvements or bug fixes.
